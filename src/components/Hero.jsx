@@ -36,11 +36,11 @@ const HeroWrapper = styled.div`
             justify-content: space-between;
             .top {
                 display: flex;
-                flex-direction: column;
-                justify-content: space-between;
+                flex-direction: column; 
+                gap: 1.75rem;
                 p {
-                    max-width: 500px;
-                    margin-bottom: 20px;
+                    max-width: 450px;
+                    margin-bottom: 15px;
                     color: #555;
                 }
             }
@@ -103,8 +103,10 @@ const HeroWrapper = styled.div`
                     padding: 0.75rem;
                     .top {
                         text-align: center;
+                        gap: 1rem;
                         .user-details {
                             flex-direction: column;
+                            margin-bottom: 15px;
                             span {
                                 display: flex;
                             }

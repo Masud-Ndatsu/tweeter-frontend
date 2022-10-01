@@ -4,7 +4,7 @@ import profile from "../assets/showcase.jpg"
 import { BsFileImage } from "react-icons/bs"
 const Post = styled.div`
     background-color: white;
-    color: #333;
+    color: #444;
     padding: 1rem;
     border-radius: 7px;
     box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.1);
@@ -35,12 +35,13 @@ const Post = styled.div`
       height: 200px;
       border-radius: 5px;
       margin-top: 15px;
+      object-fit: cover;
     }
     .actions {
       display: flex;
       justify-content: space-around;
       padding: 0.5rem 0;
-      margin-top: 25px;
+      margin-top: 20px;
       font-size: 14px;
       font-weight: 530;
       p {
@@ -59,12 +60,12 @@ const Post = styled.div`
   }
 
   .post-footer {
-    height: 60px;
+    height: 50px;
     display: flex;
     align-items: center;
     gap: 0.75rem;
      img {
-      width: 40px;
+      width: 38px;
       height: 38px;
       border-radius: 5px;
      }
@@ -82,10 +83,13 @@ const Post = styled.div`
           padding: 10px;
           :focus {
             outline: none;
+            color: #444;
+            letter-spacing: 1px;
           }
         }
         .image-upload {
           cursor: pointer;
+          margin: 3px;
           :active {
             transform: scale(0.98);
           }
