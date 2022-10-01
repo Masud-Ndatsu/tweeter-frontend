@@ -32,7 +32,7 @@ const Post = styled.div`
         font-weight: 500;
       }
       img {
-      height: 300px;
+      height: 200px;
       border-radius: 5px;
       margin-top: 15px;
     }

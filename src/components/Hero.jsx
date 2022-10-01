@@ -16,17 +16,16 @@ const HeroWrapper = styled.div`
         box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.1);
         border-radius: 5px;
         display: flex;
+        gap: 1rem;
         padding: 1rem 0.75rem;
-
+        padding-bottom: 0;
         .photo {
             flex: 2;
             padding: 0.5rem;
-            padding-right: 0;
             position: relative;
-            top: -70px;
+            top: -60px;
             img {
-                width: 80%;
-                /* height: 80%; */
+                height: 110%;
                 border-radius: 7px;
             }
 
@@ -88,21 +87,19 @@ const HeroWrapper = styled.div`
             justify-content: center;
             align-items: center;
             bottom: -130px;
+            padding: 0;
+            gap: 0;
                 .photo {
-                  padding: 0;
-                  flex: 0.5;
+                  flex: 1;
                   top: -30px;
-                  border: 2px solid green;
                     img {
                         width: 150px;
                         height: 150px;
                     }
                 }
                 .info {
-                    flex: 1;
+                    flex: 3;
                     flex-direction: column;
-                    margin-bottom: 20px;
-                    border: 2px solid red;
                     padding: 0.75rem;
                     .top {
                         text-align: center;
